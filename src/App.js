@@ -69,6 +69,13 @@ function App() {
         </ul>
       </div>
     );
+  } else {
+    return (
+      <div>
+        {form}
+        <h2>Enter a city</h2>
+      </div>
+    );
   }
 }
 
