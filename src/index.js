@@ -8,8 +8,17 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App name="Johannesburg" />
+    <App name="Tullamore" />
     <Forecast />
+    <div>
+      <p>
+        <a href="https://github.com/BronWhyte/weather-react">
+          Open-source code
+        </a>{" "}
+        {""}
+        by Bronwyn Whyte
+      </p>
+    </div>
   </React.StrictMode>
 );
 
